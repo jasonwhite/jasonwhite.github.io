@@ -311,8 +311,7 @@ button:active,
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0 0.8em;
 }
 .container:before,
 .container:after {
@@ -531,9 +530,6 @@ a.zola-anchor:hover, a.zola-anchor:active {
 }
 
 @media only screen and (max-width: 799px) {
-  .container {
-    max-width: 80%;
-  }
   .header {
     margin-left: 15px;
   }
