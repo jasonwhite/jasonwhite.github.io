@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+Test
+{% if paginator %}
+{{ macros::list_pages(pages="blog/_index.md") }}
+{% else %}
+{{ macros::list_pages(pages=section.pages) }}
+{% endif %}
+{% endblock content %}
+
