@@ -24,7 +24,6 @@ taxonomies = [
 
 nav_links = [
     {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "$BASE_URL/projects", name = "Projects"},
     {url = "https://github.com/jasonwhite", name = "Github"},
 ]
 

@@ -15,25 +15,26 @@ def man_page(name):
 
 def gen_table_row(syscall):
     num = syscall["num"]
-    name = strip_prefix(syscall["name"], "sys_")
+    name = syscall["name"]
+    pretty_name = strip_prefix(syscall["name"], "sys_")
     params = ', '.join([
         f"<strong>{typ}</strong> {param}" for (typ, param) in syscall["params"]
     ])
 
     yield "<tr>"
-    yield '<td align="right">{}</td>'.format(num)
-    yield f'<td><code><a href="{man_page(name)}">{name}</a>({params})</code></td>'
+    yield f'    <td align="right">{num}</td>'
+    yield f'    <td><code><strong>long</strong> <a href="{man_page(pretty_name)}">{name}</a>({params});</code></td>'
     yield "</tr>"
 
 def gen_table(syscalls):
     yield "<table>"
-    yield "<tr>"
-    yield "<th>#</th>"
-    yield "<th>Syscall</th>"
-    yield "</tr>"
+    yield "    <tr>"
+    yield "        <th>#</th>"
+    yield "        <th>Syscall Symbol</th>"
+    yield "    </tr>"
 
     for syscall in syscalls:
-        yield from gen_table_row(syscall)
+        yield from ("    " + line for line in gen_table_row(syscall))
 
     yield "</table>"
 
