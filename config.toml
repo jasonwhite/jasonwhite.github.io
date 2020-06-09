@@ -21,6 +21,7 @@ taxonomies = [
 ]
 
 [extra]
+analytics_id = "UA-168895742-1"
 
 nav_links = [
     {url = "$BASE_URL/tags", name = "Tags"},
