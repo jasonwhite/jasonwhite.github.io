@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>https://jasonwhite.io/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/blog/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/blog/foobar/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/blog/foobar/asdf/</loc>
+            
+                <lastmod>2020-05-24</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/blog/some-article/</loc>
+            
+                <lastmod>2020-05-24</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/linux/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/linux/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/other/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/other/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/rust/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/rust/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/ssg/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/ssg/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/sycalls/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/sycalls/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/test/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/tags/test/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/thing/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://jasonwhite.io/thing/syscalls/</loc>
+            
+                <lastmod>2020-05-24</lastmod>
+            
+        </url>
+    
+</urlset>

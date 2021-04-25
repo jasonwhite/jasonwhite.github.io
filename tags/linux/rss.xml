@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>jasonwhite</title>
+        <link>https://jasonwhite.io</link>
+        <description>Ceci n&#x27;est pas un blog.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://jasonwhite.io/tags/linux/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>List of Linux Syscalls (x64)</title>
+                <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+                <link>https://jasonwhite.io/thing/syscalls/</link>
+                <guid>https://jasonwhite.io/thing/syscalls/</guid>
+                <description>&lt;p&gt;A complete list of all x64 Linux system calls. This list was generated using
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jasonwhite&#x2F;gen-syscalls&quot;&gt;this code&lt;&#x2F;a&gt; which reads a vmlinux
+ELF image for its &lt;code&gt;__syscall_meta_*&lt;&#x2F;code&gt; symbols.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>jasonwhite</title>
+        <link>https://jasonwhite.io</link>
+        <description>Ceci n&#x27;est pas un blog.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://jasonwhite.io/tags/ssg/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Asdf</title>
+                <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+                <link>https://jasonwhite.io/blog/foobar/asdf/</link>
+                <guid>https://jasonwhite.io/blog/foobar/asdf/</guid>
+                <description>&lt;p&gt;Test&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>What is Zola</title>
+                <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+                <link>https://jasonwhite.io/blog/some-article/</link>
+                <guid>https://jasonwhite.io/blog/some-article/</guid>
+                <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien.
+Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui
+neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis
+massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam
+urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in
+ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel,
+fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus.
+Maecenas ac libero elit.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>
