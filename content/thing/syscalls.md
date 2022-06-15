@@ -1,12 +1,12 @@
 +++
-title = "List of Linux Syscalls (x64)"
+title = "List of Linux Syscalls (x86-64)"
 date = 2020-05-24
 
 [taxonomies]
 tags = ["linux", "sycalls"]
 +++
 
-A complete list of all x64 Linux system calls. This list was generated using
+A complete list of all x86-64 Linux system calls. This list was generated using
 [this code](https://github.com/jasonwhite/gen-syscalls) which reads a vmlinux
 ELF image for its `__syscall_meta_*` symbols.
 
